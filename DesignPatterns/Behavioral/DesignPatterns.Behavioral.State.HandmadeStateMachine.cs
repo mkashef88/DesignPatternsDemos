@@ -52,7 +52,7 @@ namespace DesignPatterns.Behavioral.State.HandmadeStateMachine
               };
 
 
-        static void Main(string[] args)
+        static void Mainwew(string[] args)
         {
             var state = State.OffHook;
             while (true)
