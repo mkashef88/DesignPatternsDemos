@@ -73,19 +73,19 @@ namespace DesignPatterns.Behabioral.Strategy.EqualityAndStrategies
     }
     class EqualityAndStrategies
     {
-        public static void Main(string[] args)
-        {
-            var people = new List<Person>();
+        //public static void Main(string[] args)
+        //{
+        //    var people = new List<Person>();
 
-            // equality == != and comparison < = >
+        //    // equality == != and comparison < = >
 
-            people.Sort(); // meaningless by default
+        //    people.Sort(); // meaningless by default
 
-            // sort by name with a lambda
-            people.Sort((x, y) => x.Name.CompareTo(y.Name));
+        //    // sort by name with a lambda
+        //    people.Sort((x, y) => x.Name.CompareTo(y.Name));
 
-            people.Sort(Person.NameComparer);
+        //    people.Sort(Person.NameComparer);
 
-        }
+        //}
     }
 }

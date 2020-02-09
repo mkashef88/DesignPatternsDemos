@@ -74,17 +74,17 @@ namespace DesignPatterns.Behavioral
     }
     class DynamicStrategy
     {
-        public static void Main(string[] args)
-        {
-            var tp = new TextProcessor<MarkdownListStrategy>();
+        //public static void Main(string[] args)
+        //{
+        //    var tp = new TextProcessor<MarkdownListStrategy>();
            
-            tp.AppendList(new[] { "foo", "bar", "baz" });
-            Console.WriteLine(tp);
+        //    tp.AppendList(new[] { "foo", "bar", "baz" });
+        //    Console.WriteLine(tp);
 
-            var tp2 = new TextProcessor<HtmlListStrategy>();
+        //    var tp2 = new TextProcessor<HtmlListStrategy>();
            
-            tp2.AppendList(new[] { "foo", "bar", "baz" });
-            Console.WriteLine(tp2);
-        }
+        //    tp2.AppendList(new[] { "foo", "bar", "baz" });
+        //    Console.WriteLine(tp2);
+        //}
     }
 }

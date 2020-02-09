@@ -57,11 +57,17 @@
     <Compile Include="Behavioral\DesignPatterns.Behavioral.Observer.CodeExercise.cs" />
     <Compile Include="Behavioral\DesignPatterns.Behavioral.Observer.WeakEventPattern.cs" />
     <Compile Include="Behavioral\DesignPatterns.Behavioral.Mediator.Exercise.cs" />
+    <Compile Include="Behavioral\DesignPatterns.Behavioral.Startegy.Exercise.cs" />
     <Compile Include="Behavioral\DesignPatterns.Behavioral.State.CodeExercise.cs" />
     <Compile Include="Behavioral\DesignPatterns.Behavioral.State.HandmadeStateMachine.cs" />
     <Compile Include="Behavioral\DesignPatterns.Behavioral.State.SwitchBasedStateMachine.cs" />
     <Compile Include="Behavioral\DesignPatterns.Behavioral.Strategy.CodeExercise.cs" />
     <Compile Include="Behavioral\DesignPatterns.Behavioral.Strategy.DynamicStrategy.cs" />
+    <Compile Include="Behavioral\DesignPatterns.Behavioral.TemplateMethod.Demo.cs" />
+    <Compile Include="Behavioral\DesignPatterns.Behavioral.Visitor.CodeExercise.cs" />
+    <Compile Include="Behavioral\DesignPatterns.Behavioral.Visitor.DoubleDispatch.cs" />
+    <Compile Include="Behavioral\DesignPatterns.Behavioral.Visitor.IntrusiveExpressionPrinting.cs" />
+    <Compile Include="Behavioral\DesignPatterns.Behavioral.Visitor.ReflectionBasedPrinting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
